@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey World</title>
+    <!-- tailwindcss and daisyui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -15,7 +16,7 @@
     </header>
     <main>
         <!-- banner section -->
-        <section>
+        <section class="container mx-auto mb-24">
             <div class="carousel rounded-2xl ">
                 <div id="slide1" class="carousel-item relative w-full h-3/4">
                     <img src="Images/1.png" class="w-full" />
@@ -42,6 +43,122 @@
             </div>
         </section>
         <!-- professional hockeys section -->
+        <section class="container mx-auto mb-10">
+            <div class="text-center p-10">
+                <h3 class="text-3xl  font-extrabold">
+                    Professional Hockeys Club
+                </h3>
+                <p class="text-base">
+                    For healthy and sound mind ,
+                    professional hockey club is perfect for like you .
+                </p>
+
+            </div>
+            <div class="lg:flex gap-5">
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <div class="radial-progress text-error font-extrabold "
+                            style=" --value:87;transform: rotate(180deg);--size:12rem; --thickness: 1.3rem"
+                            role="progressbar">
+                            <p class="text-3xl transform: rotate(180deg)">87%</p>
+                        </div>
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Prayer Facility</h2>
+                        <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+
+                </div>
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <div class="radial-progress text-[#49D293] font-extrabold "
+                            style=" --value:95;transform: rotate(180deg);--size:12rem; --thickness: 1.3rem"
+                            role="progressbar"><span class="text-2xl transform: rotate(90deg) ">95%</span></div>
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Experienced Coach</h2>
+                        <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+
+                </div>
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <div class="radial-progress text-yellow-400 font-extrabold "
+                            style=" --value:90;transform: rotate(180deg);--size:12rem; --thickness: 1.3rem"
+                            role="progressbar">
+                            <p class="text-3xl transform: rotate(180deg)">90%</p>
+                        </div>
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Senior Player</h2>
+                        <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+
+                </div>
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <div class="radial-progress text-[#4C8DF1] font-extrabold "
+                            style=" --value:80;transform: rotate(180deg);--size:12rem; --thickness: 1.3rem"
+                            role="progressbar">
+                            <p class="text-3xl transform: rotate(180deg)">80%</p>
+                        </div>
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Training Ground</h2>
+                        <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- Program sections -->
+        <section class="container mx-auto mb-10">
+            <div class="text-center p-10">
+                <h3 class="text-3xl  font-extrabold">
+                    Program Sections
+                </h3>
+                <p class="text-base">
+                    For healthy and sound mind ,
+                    professional hockey club is perfect for like you .
+                </p>
+
+            </div>
+            <div class="grid grid-cols-2 gap-5">
+                <div class="card w-96 bg-base-100 col-span-2 shadow-xl image-full">
+                    <figure><img src="Images/2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Junior Program</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions justify-start ">
+                            <button class="btn bg-[#FF4240] border-[#FF4240]">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-96 bg-base-100 col-span-2 shadow-xl image-full">
+                    <figure><img src="Images/2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Teenager Program</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions justify-start ">
+                            <button class="btn bg-[#FF4240] border-[#FF4240]">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-96 bg-base-100 shadow-xl image-full row-span-3">
+                    <figure><img src="Images/2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Professional Program</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions justify-start ">
+                            <button class="btn bg-[#FF4240] border-[#FF4240]">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+
+        </section>
     </main>
     <footer>
 
